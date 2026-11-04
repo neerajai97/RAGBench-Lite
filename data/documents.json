@@ -1,0 +1,83 @@
+
+[
+  {
+    "id": "D1",
+    "text": "Retrieval-Augmented Generation (RAG) combines information retrieval with text generation. A retriever selects relevant documents, which are passed to a language model as context."
+  },
+  {
+    "id": "D2",
+    "text": "Precision at k measures the fraction of the top k retrieved results that are relevant to a query."
+  },
+  {
+    "id": "D3",
+    "text": "Recall at k measures the fraction of all known relevant documents that appear in the top k retrieved results."
+  },
+  {
+    "id": "D4",
+    "text": "Mean Reciprocal Rank (MRR) measures how highly the first relevant result appears in a ranked list of search results."
+  },
+  {
+    "id": "D5",
+    "text": "A regression test checks whether a change to software causes previously working behavior to fail."
+  },
+  {
+    "id": "D6",
+    "text": "A vector embedding represents text as a numerical vector. Semantically similar text can have vectors that are close together in the embedding space."
+  },
+  {
+    "id": "D7",
+    "text": "Chunking divides a long document into smaller passages before indexing. Chunk size and overlap can affect retrieval quality and the amount of context available."
+  },
+  {
+    "id": "D8",
+    "text": "Hybrid search combines lexical retrieval, such as BM25, with dense vector retrieval to capture both exact term matches and semantic similarity."
+  },
+  {
+    "id": "D9",
+    "text": "A reranker takes an initial set of retrieved candidates and scores them again to improve their ordering for a particular query."
+  },
+  {
+    "id": "D10",
+    "text": "Grounded generation means producing an answer supported by the supplied evidence. Citation checks can verify whether cited source documents actually support the answer."
+  },
+  {
+    "id": "D11",
+    "text": "A prompt injection attack attempts to manipulate an AI system using instructions embedded in user input or retrieved content. Retrieved documents should be treated as untrusted data."
+  },
+  {
+    "id": "D12",
+    "text": "A retrieval benchmark should contain representative questions, expected relevant documents, and documented evaluation criteria. Test data should be kept separate from development data."
+  },
+  {
+    "id": "D13",
+    "text": "Precision at k is the number of relevant documents among the top k results divided by k, when k retrieved results are available."
+  },
+  {
+    "id": "D14",
+    "text": "Recall at k is the number of relevant documents retrieved in the top k divided by the total number of known relevant documents for the query."
+  },
+  {
+    "id": "D15",
+    "text": "Mean Reciprocal Rank averages the reciprocal rank of the first relevant result across a set of queries. A higher value rewards relevant results appearing earlier."
+  },
+  {
+    "id": "D16",
+    "text": "Latency measures the time taken for an operation to complete. Percentile latency, including p95, helps describe slower requests rather than only the average."
+  },
+  {
+    "id": "D17",
+    "text": "Caching stores reusable results so repeated requests can avoid redundant computation. Cache invalidation and stale results must be handled carefully."
+  },
+  {
+    "id": "D18",
+    "text": "Continuous integration runs automated checks when code changes. A quality gate can fail a build when tests fail or a measured metric falls below an agreed threshold."
+  },
+  {
+    "id": "D19",
+    "text": "An ablation study removes or changes one component at a time to estimate its contribution to overall system performance."
+  },
+  {
+    "id": "D20",
+    "text": "An unanswerable question cannot be supported by the available knowledge base. A reliable retrieval-augmented system should recognize insufficient evidence instead of inventing an answer."
+  }
+]

@@ -1,0 +1,124 @@
+
+[
+  {
+    "question": "What is RAG and how does retrieval work?",
+    "relevant_ids": ["D1"]
+  },
+  {
+    "question": "How do we measure the fraction of retrieved documents that are relevant?",
+    "relevant_ids": ["D2", "D13"]
+  },
+  {
+    "question": "How do we measure how many relevant documents were found?",
+    "relevant_ids": ["D3", "D14"]
+  },
+  {
+    "question": "How do we score the rank of the first relevant result?",
+    "relevant_ids": ["D4", "D15"]
+  },
+  {
+    "question": "How can we detect when a code change breaks existing functionality?",
+    "relevant_ids": ["D5", "D18"]
+  },
+  {
+    "question": "How can text be represented numerically for semantic search?",
+    "relevant_ids": ["D6"]
+  },
+  {
+    "question": "Why split long documents into smaller passages?",
+    "relevant_ids": ["D7"]
+  },
+  {
+    "question": "How can exact keyword search and semantic search work together?",
+    "relevant_ids": ["D8"]
+  },
+  {
+    "question": "How can we improve the ordering of initially retrieved documents?",
+    "relevant_ids": ["D9"]
+  },
+  {
+    "question": "How do we ensure a generated answer is supported by its sources?",
+    "relevant_ids": ["D10"]
+  },
+  {
+    "question": "What risks arise from malicious instructions hidden in retrieved documents?",
+    "relevant_ids": ["D11"]
+  },
+  {
+    "question": "What should a reliable retrieval benchmark contain?",
+    "relevant_ids": ["D12"]
+  },
+  {
+    "question": "How can we identify slow requests in production?",
+    "relevant_ids": ["D16"]
+  },
+  {
+    "question": "How can repeated requests avoid redundant computation?",
+    "relevant_ids": ["D17"]
+  },
+  {
+    "question": "How should a system respond when the knowledge base does not contain an answer?",
+    "relevant_ids": ["D20"]
+  },
+  {
+  "question": "Why might a search system return documents containing the right keywords but still provide poor answers?",
+  "relevant_ids": ["D8", "D9"]
+  },
+  {
+  "question": "How can a retrieval system determine whether its first search results actually contain sufficient evidence to answer a question?",
+  "relevant_ids": ["D10", "D20"]
+  },
+  {
+    "question": "What is the difference between finding relevant documents and ranking the most useful document first?",
+    "relevant_ids": ["D3", "D4", "D9"]
+  },
+  {
+    "question": "Why might two search algorithms return different results for the same question?",
+    "relevant_ids": []
+  },
+  {
+    "question": "How can a system combine exact word matching with meaning-based search?",
+    "relevant_ids": ["D6", "D8"]
+  },
+  {
+    "question": "What happens when a document is split into passages that are too small or too large?",
+    "relevant_ids": ["D7"]
+  },
+  {
+    "question": "How can we check whether a retrieval improvement is actually responsible for better results?",
+    "relevant_ids": ["D12", "D19"]
+  },
+  {
+    "question": "Why should evaluation questions be different from the examples used to develop a retrieval system?",
+    "relevant_ids": ["D12"]
+  },
+  {
+    "question": "How can a system prevent instructions inside retrieved content from controlling the language model?",
+    "relevant_ids": ["D11"]
+  },
+  {
+    "question": "Why should an AI system avoid making up an answer when its documents do not contain the required information?",
+    "relevant_ids": ["D20", "D10"]
+  },
+  {
+    "question": "How can we identify whether a retrieval system is becoming slower after a code change?",
+    "relevant_ids": ["D16", "D18"]
+  },
+  {
+    "question": "What is the purpose of measuring the average reciprocal position of the first correct search result?",
+    "relevant_ids": ["D4", "D15"]
+  },
+  {
+    "question": "How can frequently repeated queries be handled without performing the same expensive computation every time?",
+    "relevant_ids": ["D17"]
+  },
+  {
+    "question": "Why is it useful to compare a system with and without one particular retrieval component?",
+    "relevant_ids": ["D19"]
+  },
+  {
+    "question": "How can a retrieval system ensure that its generated responses remain supported by the original knowledge sources?",
+    "relevant_ids": ["D10", "D20"]
+  }
+
+]

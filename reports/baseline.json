@@ -1,0 +1,928 @@
+{
+  "total_questions": 30,
+  "evaluated_questions": 29,
+  "excluded_questions": 1,
+  "tfidf_mean_precision_at_3": 0.3793103448275862,
+  "bm25_mean_precision_at_3": 0.3908045977011494,
+  "hybrid_mean_precision_at_3": 0.4022988505747126,
+  "tfidf_mean_recall_at_3": 0.8390804597701149,
+  "bm25_mean_recall_at_3": 0.8563218390804598,
+  "hybrid_mean_recall_at_3": 0.867816091954023,
+  "tfidf_mrr": 0.8908045977011494,
+  "bm25_mrr": 0.8505747126436782,
+  "hybrid_mrr": 0.8793103448275862,
+  "results": [
+    {
+      "question": "What is RAG and how does retrieval work?",
+      "relevant_ids": [
+        "D1"
+      ],
+      "tfidf_retrieved_ids": [
+        "D1",
+        "D8",
+        "D20"
+      ],
+      "bm25_retrieved_ids": [
+        "D1",
+        "D8",
+        "D20"
+      ],
+      "hybrid_retrieved_ids": [
+        "D1",
+        "D8",
+        "D20"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How do we measure the fraction of retrieved documents that are relevant?",
+      "relevant_ids": [
+        "D2",
+        "D13"
+      ],
+      "tfidf_retrieved_ids": [
+        "D2",
+        "D3",
+        "D14"
+      ],
+      "bm25_retrieved_ids": [
+        "D3",
+        "D2",
+        "D14"
+      ],
+      "hybrid_retrieved_ids": [
+        "D2",
+        "D3",
+        "D14"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 0.5,
+      "bm25_recall_at_k": 0.5,
+      "hybrid_recall_at_k": 0.5,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 0.5,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How do we measure how many relevant documents were found?",
+      "relevant_ids": [
+        "D3",
+        "D14"
+      ],
+      "tfidf_retrieved_ids": [
+        "D14",
+        "D3",
+        "D13"
+      ],
+      "bm25_retrieved_ids": [
+        "D14",
+        "D3",
+        "D13"
+      ],
+      "hybrid_retrieved_ids": [
+        "D14",
+        "D3",
+        "D13"
+      ],
+      "tfidf_precision_at_k": 0.6666666666666666,
+      "bm25_precision_at_k": 0.6666666666666666,
+      "hybrid_precision_at_k": 0.6666666666666666,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How do we score the rank of the first relevant result?",
+      "relevant_ids": [
+        "D4",
+        "D15"
+      ],
+      "tfidf_retrieved_ids": [
+        "D15",
+        "D4",
+        "D14"
+      ],
+      "bm25_retrieved_ids": [
+        "D15",
+        "D4",
+        "D14"
+      ],
+      "hybrid_retrieved_ids": [
+        "D15",
+        "D4",
+        "D14"
+      ],
+      "tfidf_precision_at_k": 0.6666666666666666,
+      "bm25_precision_at_k": 0.6666666666666666,
+      "hybrid_precision_at_k": 0.6666666666666666,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How can we detect when a code change breaks existing functionality?",
+      "relevant_ids": [
+        "D5",
+        "D18"
+      ],
+      "tfidf_retrieved_ids": [
+        "D5",
+        "D18",
+        "D19"
+      ],
+      "bm25_retrieved_ids": [
+        "D18",
+        "D5",
+        "D6"
+      ],
+      "hybrid_retrieved_ids": [
+        "D5",
+        "D18",
+        "D19"
+      ],
+      "tfidf_precision_at_k": 0.6666666666666666,
+      "bm25_precision_at_k": 0.6666666666666666,
+      "hybrid_precision_at_k": 0.6666666666666666,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How can text be represented numerically for semantic search?",
+      "relevant_ids": [
+        "D6"
+      ],
+      "tfidf_retrieved_ids": [
+        "D8",
+        "D6",
+        "D4"
+      ],
+      "bm25_retrieved_ids": [
+        "D8",
+        "D6",
+        "D4"
+      ],
+      "hybrid_retrieved_ids": [
+        "D8",
+        "D6",
+        "D4"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 0.5,
+      "bm25_reciprocal_rank": 0.5,
+      "hybrid_reciprocal_rank": 0.5
+    },
+    {
+      "question": "Why split long documents into smaller passages?",
+      "relevant_ids": [
+        "D7"
+      ],
+      "tfidf_retrieved_ids": [
+        "D7",
+        "D14",
+        "D3"
+      ],
+      "bm25_retrieved_ids": [
+        "D7",
+        "D14",
+        "D3"
+      ],
+      "hybrid_retrieved_ids": [
+        "D7",
+        "D14",
+        "D3"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How can exact keyword search and semantic search work together?",
+      "relevant_ids": [
+        "D8"
+      ],
+      "tfidf_retrieved_ids": [
+        "D8",
+        "D4",
+        "D20"
+      ],
+      "bm25_retrieved_ids": [
+        "D8",
+        "D4",
+        "D6"
+      ],
+      "hybrid_retrieved_ids": [
+        "D8",
+        "D4",
+        "D20"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How can we improve the ordering of initially retrieved documents?",
+      "relevant_ids": [
+        "D9"
+      ],
+      "tfidf_retrieved_ids": [
+        "D9",
+        "D11",
+        "D14"
+      ],
+      "bm25_retrieved_ids": [
+        "D9",
+        "D14",
+        "D11"
+      ],
+      "hybrid_retrieved_ids": [
+        "D9",
+        "D11",
+        "D14"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How do we ensure a generated answer is supported by its sources?",
+      "relevant_ids": [
+        "D10"
+      ],
+      "tfidf_retrieved_ids": [
+        "D10",
+        "D20",
+        "D18"
+      ],
+      "bm25_retrieved_ids": [
+        "D10",
+        "D20",
+        "D19"
+      ],
+      "hybrid_retrieved_ids": [
+        "D10",
+        "D20",
+        "D18"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "What risks arise from malicious instructions hidden in retrieved documents?",
+      "relevant_ids": [
+        "D11"
+      ],
+      "tfidf_retrieved_ids": [
+        "D11",
+        "D14",
+        "D3"
+      ],
+      "bm25_retrieved_ids": [
+        "D11",
+        "D14",
+        "D3"
+      ],
+      "hybrid_retrieved_ids": [
+        "D11",
+        "D14",
+        "D3"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "What should a reliable retrieval benchmark contain?",
+      "relevant_ids": [
+        "D12"
+      ],
+      "tfidf_retrieved_ids": [
+        "D12",
+        "D20",
+        "D8"
+      ],
+      "bm25_retrieved_ids": [
+        "D12",
+        "D20",
+        "D1"
+      ],
+      "hybrid_retrieved_ids": [
+        "D12",
+        "D20",
+        "D8"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How can we identify slow requests in production?",
+      "relevant_ids": [
+        "D16"
+      ],
+      "tfidf_retrieved_ids": [
+        "D16",
+        "D17",
+        "D19"
+      ],
+      "bm25_retrieved_ids": [
+        "D17",
+        "D16",
+        "D6"
+      ],
+      "hybrid_retrieved_ids": [
+        "D16",
+        "D17",
+        "D19"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 0.5,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How can repeated requests avoid redundant computation?",
+      "relevant_ids": [
+        "D17"
+      ],
+      "tfidf_retrieved_ids": [
+        "D17",
+        "D16",
+        "D19"
+      ],
+      "bm25_retrieved_ids": [
+        "D17",
+        "D16",
+        "D6"
+      ],
+      "hybrid_retrieved_ids": [
+        "D17",
+        "D16",
+        "D19"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How should a system respond when the knowledge base does not contain an answer?",
+      "relevant_ids": [
+        "D20"
+      ],
+      "tfidf_retrieved_ids": [
+        "D20",
+        "D10",
+        "D12"
+      ],
+      "bm25_retrieved_ids": [
+        "D20",
+        "D12",
+        "D11"
+      ],
+      "hybrid_retrieved_ids": [
+        "D20",
+        "D12",
+        "D10"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "Why might a search system return documents containing the right keywords but still provide poor answers?",
+      "relevant_ids": [
+        "D8",
+        "D9"
+      ],
+      "tfidf_retrieved_ids": [
+        "D4",
+        "D14",
+        "D8"
+      ],
+      "bm25_retrieved_ids": [
+        "D4",
+        "D11",
+        "D8"
+      ],
+      "hybrid_retrieved_ids": [
+        "D4",
+        "D8",
+        "D14"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 0.5,
+      "bm25_recall_at_k": 0.5,
+      "hybrid_recall_at_k": 0.5,
+      "tfidf_reciprocal_rank": 0.3333333333333333,
+      "bm25_reciprocal_rank": 0.3333333333333333,
+      "hybrid_reciprocal_rank": 0.5
+    },
+    {
+      "question": "How can a retrieval system determine whether its first search results actually contain sufficient evidence to answer a question?",
+      "relevant_ids": [
+        "D10",
+        "D20"
+      ],
+      "tfidf_retrieved_ids": [
+        "D10",
+        "D20",
+        "D4"
+      ],
+      "bm25_retrieved_ids": [
+        "D10",
+        "D20",
+        "D4"
+      ],
+      "hybrid_retrieved_ids": [
+        "D10",
+        "D20",
+        "D4"
+      ],
+      "tfidf_precision_at_k": 0.6666666666666666,
+      "bm25_precision_at_k": 0.6666666666666666,
+      "hybrid_precision_at_k": 0.6666666666666666,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is the difference between finding relevant documents and ranking the most useful document first?",
+      "relevant_ids": [
+        "D3",
+        "D4",
+        "D9"
+      ],
+      "tfidf_retrieved_ids": [
+        "D14",
+        "D3",
+        "D13"
+      ],
+      "bm25_retrieved_ids": [
+        "D4",
+        "D7",
+        "D15"
+      ],
+      "hybrid_retrieved_ids": [
+        "D14",
+        "D4",
+        "D3"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.6666666666666666,
+      "tfidf_recall_at_k": 0.3333333333333333,
+      "bm25_recall_at_k": 0.3333333333333333,
+      "hybrid_recall_at_k": 0.6666666666666666,
+      "tfidf_reciprocal_rank": 0.5,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 0.5
+    },
+    {
+      "question": "Why might two search algorithms return different results for the same question?",
+      "relevant_ids": [],
+      "tfidf_retrieved_ids": [
+        "D4",
+        "D13",
+        "D20"
+      ],
+      "bm25_retrieved_ids": [
+        "D4",
+        "D20",
+        "D8"
+      ],
+      "hybrid_retrieved_ids": [
+        "D4",
+        "D20",
+        "D13"
+      ],
+      "tfidf_precision_at_k": null,
+      "bm25_precision_at_k": null,
+      "hybrid_precision_at_k": null,
+      "tfidf_recall_at_k": null,
+      "bm25_recall_at_k": null,
+      "hybrid_recall_at_k": null,
+      "tfidf_reciprocal_rank": null,
+      "bm25_reciprocal_rank": null,
+      "hybrid_reciprocal_rank": null
+    },
+    {
+      "question": "How can a system combine exact word matching with meaning-based search?",
+      "relevant_ids": [
+        "D6",
+        "D8"
+      ],
+      "tfidf_retrieved_ids": [
+        "D8",
+        "D4",
+        "D20"
+      ],
+      "bm25_retrieved_ids": [
+        "D8",
+        "D4",
+        "D19"
+      ],
+      "hybrid_retrieved_ids": [
+        "D8",
+        "D4",
+        "D20"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 0.5,
+      "bm25_recall_at_k": 0.5,
+      "hybrid_recall_at_k": 0.5,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "What happens when a document is split into passages that are too small or too large?",
+      "relevant_ids": [
+        "D7"
+      ],
+      "tfidf_retrieved_ids": [
+        "D7",
+        "D20",
+        "D18"
+      ],
+      "bm25_retrieved_ids": [
+        "D7",
+        "D1",
+        "D2"
+      ],
+      "hybrid_retrieved_ids": [
+        "D7",
+        "D20",
+        "D1"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How can we check whether a retrieval improvement is actually responsible for better results?",
+      "relevant_ids": [
+        "D12",
+        "D19"
+      ],
+      "tfidf_retrieved_ids": [
+        "D13",
+        "D10",
+        "D8"
+      ],
+      "bm25_retrieved_ids": [
+        "D10",
+        "D5",
+        "D17"
+      ],
+      "hybrid_retrieved_ids": [
+        "D10",
+        "D13",
+        "D5"
+      ],
+      "tfidf_precision_at_k": 0.0,
+      "bm25_precision_at_k": 0.0,
+      "hybrid_precision_at_k": 0.0,
+      "tfidf_recall_at_k": 0.0,
+      "bm25_recall_at_k": 0.0,
+      "hybrid_recall_at_k": 0.0,
+      "tfidf_reciprocal_rank": 0.0,
+      "bm25_reciprocal_rank": 0.0,
+      "hybrid_reciprocal_rank": 0.0
+    },
+    {
+      "question": "Why should evaluation questions be different from the examples used to develop a retrieval system?",
+      "relevant_ids": [
+        "D12"
+      ],
+      "tfidf_retrieved_ids": [
+        "D12",
+        "D8",
+        "D1"
+      ],
+      "bm25_retrieved_ids": [
+        "D12",
+        "D20",
+        "D11"
+      ],
+      "hybrid_retrieved_ids": [
+        "D12",
+        "D8",
+        "D20"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How can a system prevent instructions inside retrieved content from controlling the language model?",
+      "relevant_ids": [
+        "D11"
+      ],
+      "tfidf_retrieved_ids": [
+        "D11",
+        "D1",
+        "D2"
+      ],
+      "bm25_retrieved_ids": [
+        "D11",
+        "D1",
+        "D19"
+      ],
+      "hybrid_retrieved_ids": [
+        "D11",
+        "D1",
+        "D2"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "Why should an AI system avoid making up an answer when its documents do not contain the required information?",
+      "relevant_ids": [
+        "D20",
+        "D10"
+      ],
+      "tfidf_retrieved_ids": [
+        "D10",
+        "D1",
+        "D12"
+      ],
+      "bm25_retrieved_ids": [
+        "D11",
+        "D12",
+        "D20"
+      ],
+      "hybrid_retrieved_ids": [
+        "D12",
+        "D10",
+        "D11"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 0.5,
+      "bm25_recall_at_k": 0.5,
+      "hybrid_recall_at_k": 0.5,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 0.3333333333333333,
+      "hybrid_reciprocal_rank": 0.5
+    },
+    {
+      "question": "How can we identify whether a retrieval system is becoming slower after a code change?",
+      "relevant_ids": [
+        "D16",
+        "D18"
+      ],
+      "tfidf_retrieved_ids": [
+        "D5",
+        "D16",
+        "D8"
+      ],
+      "bm25_retrieved_ids": [
+        "D5",
+        "D18",
+        "D10"
+      ],
+      "hybrid_retrieved_ids": [
+        "D5",
+        "D16",
+        "D18"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.6666666666666666,
+      "tfidf_recall_at_k": 0.5,
+      "bm25_recall_at_k": 0.5,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 0.5,
+      "bm25_reciprocal_rank": 0.5,
+      "hybrid_reciprocal_rank": 0.5
+    },
+    {
+      "question": "What is the purpose of measuring the average reciprocal position of the first correct search result?",
+      "relevant_ids": [
+        "D4",
+        "D15"
+      ],
+      "tfidf_retrieved_ids": [
+        "D4",
+        "D15",
+        "D16"
+      ],
+      "bm25_retrieved_ids": [
+        "D4",
+        "D15",
+        "D16"
+      ],
+      "hybrid_retrieved_ids": [
+        "D4",
+        "D15",
+        "D16"
+      ],
+      "tfidf_precision_at_k": 0.6666666666666666,
+      "bm25_precision_at_k": 0.6666666666666666,
+      "hybrid_precision_at_k": 0.6666666666666666,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How can frequently repeated queries be handled without performing the same expensive computation every time?",
+      "relevant_ids": [
+        "D17"
+      ],
+      "tfidf_retrieved_ids": [
+        "D17",
+        "D19",
+        "D15"
+      ],
+      "bm25_retrieved_ids": [
+        "D17",
+        "D15",
+        "D19"
+      ],
+      "hybrid_retrieved_ids": [
+        "D17",
+        "D19",
+        "D15"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "Why is it useful to compare a system with and without one particular retrieval component?",
+      "relevant_ids": [
+        "D19"
+      ],
+      "tfidf_retrieved_ids": [
+        "D19",
+        "D9",
+        "D8"
+      ],
+      "bm25_retrieved_ids": [
+        "D19",
+        "D9",
+        "D20"
+      ],
+      "hybrid_retrieved_ids": [
+        "D19",
+        "D9",
+        "D8"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.3333333333333333,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 1.0,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 1.0,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    },
+    {
+      "question": "How can a retrieval system ensure that its generated responses remain supported by the original knowledge sources?",
+      "relevant_ids": [
+        "D10",
+        "D20"
+      ],
+      "tfidf_retrieved_ids": [
+        "D20",
+        "D8",
+        "D1"
+      ],
+      "bm25_retrieved_ids": [
+        "D20",
+        "D19",
+        "D10"
+      ],
+      "hybrid_retrieved_ids": [
+        "D20",
+        "D8",
+        "D19"
+      ],
+      "tfidf_precision_at_k": 0.3333333333333333,
+      "bm25_precision_at_k": 0.6666666666666666,
+      "hybrid_precision_at_k": 0.3333333333333333,
+      "tfidf_recall_at_k": 0.5,
+      "bm25_recall_at_k": 1.0,
+      "hybrid_recall_at_k": 0.5,
+      "tfidf_reciprocal_rank": 1.0,
+      "bm25_reciprocal_rank": 1.0,
+      "hybrid_reciprocal_rank": 1.0
+    }
+  ]
+}
