@@ -67,8 +67,7 @@ ragbench-lite/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ragbench-lite.git
-cd ragbench-lite
+git clone https://github.com/neerajai97/RAGBench-Lite.git
 ```
 
 Create a virtual environment:
