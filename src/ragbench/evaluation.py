@@ -1,6 +1,7 @@
 
 import json
 from pathlib import Path
+from datetime import datetime
 
 from ragbench.retrieval import TfidfRetriever
 from ragbench.bm25_retrieval import BM25Retriever
@@ -55,6 +56,9 @@ def reciprocal_rank(retrieved_ids, relevant_ids):
 
 
 def run_evaluation(k=3):
+
+    if k < 1:
+        raise ValueError("k must be at least 1.")
     tfidf_retriever = TfidfRetriever()
     bm25_retriever = BM25Retriever()
     hybrid_retriever = HybridRetriever()
@@ -176,16 +180,31 @@ def run_evaluation(k=3):
         "results": results,
     }
 
-
+    
 if __name__ == "__main__":
     report = run_evaluation(k=3)
-    print(json.dumps(report, indent=2))
 
-    output_path = PROJECT_ROOT / "reports" / "baseline.json"
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+    # Create a unique filename for this experiment
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+    history_dir = PROJECT_ROOT / "reports" / "history"
+
+    history_dir.mkdir(parents=True, exist_ok=True)
+
+    output_path = history_dir / f"experiment_{timestamp}.json"
+
+    # Save the latest experiment without overwriting the reference baseline
     output_path.write_text(
         json.dumps(report, indent=2),
         encoding="utf-8",
     )
 
-    print(f"\nReport saved to: {output_path}")
+    print(json.dumps({
+        "total_questions": report["total_questions"],
+        "evaluated_questions": report["evaluated_questions"],
+        "excluded_questions": report["excluded_questions"],
+        "hybrid_precision_at_3": report["hybrid_mean_precision_at_3"],
+        "hybrid_recall_at_3": report["hybrid_mean_recall_at_3"],
+        "hybrid_mrr": report["hybrid_mrr"],
+        "report_saved_to": str(output_path),
+    }, indent=2))
+
